@@ -62,6 +62,11 @@ KIISU SMOL is currently crowdfunding. Back the campaign and get yours:
 
 Hardware design files (schematics, PCB project, 3D models) are released under the **[CERN Open Hardware Licence Version 2 — Strongly Reciprocal (CERN-OHL-S v2)](LICENSE)**.
 
+The hardware design is open only to the extent published in this repository:
+
+- **KIISU SMOL main board** — schematics as a PDF document and a 3D model. The original CAD sources (schematic and PCB layout projects) of the main board are not published, are not part of the licensed material and are not available on request.
+- **Sample extension board** (`kiisu smol kicad extension board/`) — complete KiCad project, intended as a starting point for your own expansion modules.
+
 Documentation, manuals and this README are released under the **[Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](LICENSE-DOCS)**.
 
 > Note: the previous internal name of this board was *Kiisu Mini*. Some artifacts in the KiCad sample project (`km-2032`, `kiisumini.step`, etc.) still carry the legacy `km` / `kiisumini` prefix to preserve internal references.
